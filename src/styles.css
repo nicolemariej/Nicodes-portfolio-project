@@ -3,14 +3,19 @@
   --primary-color-hover: rgb(17, 101, 104);
 }
 
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: rgb(209, 231, 240);
+}
+
 h1 {
   font-family: "Source Code Pro", monospace;
   line-height: 100px;
   color: rgb(255, 255, 255);
+  font-size: 45px;
 }
 
 h2 {
-  font-family: "Source Code Pro", monospace;
   line-height: 100px;
   color: rgb(255, 255, 255);
 }
@@ -31,8 +36,44 @@ h2 {
 .btn-primary {
   background-color: var(--primary-color);
   border: black;
+  padding: 10px 30px;
 }
 
 .btn-primary:hover {
   background-color: var(--primary-color-hover);
+}
+
+.intro {
+  font-size: 22px;
+  margin: 48px;
+}
+
+.sample-image {
+  border: var(--primary-color) 3px solid;
+  border-radius: 10px;
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .main-button {
+    font-size: 7px;
+  }
+  .description {
+    margin-top: 10px;
+  }
+  .intro {
+    margin: 10px;
+  }
+  .start {
+    line-height: 50px;
+    padding: 60px;
+  }
 }
