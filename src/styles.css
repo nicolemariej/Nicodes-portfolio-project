@@ -69,8 +69,12 @@ h2 {
   text-align: justify;
 }
 
-.shecodes-link {
+.paragraph-link {
   text-decoration: none;
+}
+
+.contact-info {
+  margin: 70px 0px 0px 200px;
 }
 
 @media (max-width: 575px) {
@@ -93,13 +97,17 @@ h2 {
   }
   .start {
     line-height: 50px;
-    padding: 60px;
+    padding: 50px;
   }
   .nicole-image {
     display: block;
-    margin: 20px auto;
+    margin: auto;
   }
   .about-paragraph {
     margin-top: 0px;
+  }
+  .contact-info {
+    display: block;
+    margin: 20px auto 0px 20px;
   }
 }
