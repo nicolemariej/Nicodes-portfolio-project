@@ -75,25 +75,31 @@ h2 {
 
 @media (max-width: 575px) {
   h1 {
-    font-size: 25px;
+    font-size: 37px;
     line-height: 30px;
   }
 
   h2 {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
   }
-  .main-button {
-    font-size: 7px;
-  }
+
   .description {
     margin-top: 10px;
   }
   .intro {
-    margin: 10px;
+    margin: 20px;
+    font-size: 17px;
   }
   .start {
     line-height: 50px;
     padding: 60px;
+  }
+  .nicole-image {
+    display: block;
+    margin: 20px auto;
+  }
+  .about-paragraph {
+    margin-top: 0px;
   }
 }
