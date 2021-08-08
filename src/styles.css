@@ -20,6 +20,12 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
+footer {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .nav-custom {
   background-color: rgb(209, 231, 240);
 }
@@ -93,8 +99,12 @@ h2 {
 .contact-info {
   margin: 70px 0px 0px 200px;
 }
-.menu {
-  color: brown;
+
+.contact-icons a {
+  margin: 20px;
+  background-color: #101011;
+  padding: 10px 15px;
+  border-radius: 50%;
 }
 
 @media (max-width: 575px) {
@@ -129,5 +139,9 @@ h2 {
   .contact-info {
     display: block;
     margin: 20px auto 0px 20px;
+  }
+
+  .contact-icons a {
+    background: none;
   }
 }
