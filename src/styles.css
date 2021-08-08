@@ -121,6 +121,17 @@ nav {
   margin-top: 20px;
 }
 
+.certification-title {
+  font-size: 40px;
+  margin: 30px;
+}
+
+.certificate-image {
+  max-width: 700px;
+  display: block;
+  margin: 40px auto;
+}
+
 @media (max-width: 575px) {
   h1 {
     font-size: 37px;
@@ -168,5 +179,13 @@ nav {
 
   .footer-text {
     margin-top: 0px;
+  }
+
+  .certificate-image {
+    max-width: 80%;
+  }
+
+  .certification-title {
+    font-size: 29px;
   }
 }
