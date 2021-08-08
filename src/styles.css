@@ -20,6 +20,18 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
+.nav-custom {
+  background-color: rgb(209, 231, 240);
+}
+
+.nav-text {
+  color: black;
+}
+
+.nav-text:hover {
+  color: var(--primary-color);
+}
+
 .start {
   text-align: center;
   padding: 90px;
@@ -71,10 +83,18 @@ h2 {
 
 .paragraph-link {
   text-decoration: none;
+  color: var(--primary-color-hover);
+}
+
+.paragraph-link:hover {
+  color: var(--primary-color);
 }
 
 .contact-info {
   margin: 70px 0px 0px 200px;
+}
+.menu {
+  color: brown;
 }
 
 @media (max-width: 575px) {
