@@ -136,6 +136,16 @@ nav {
   margin: 40px auto;
 }
 
+.blog-container {
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+}
+
+.blog-content {
+  font-size: 30px;
+}
+
 @media (max-width: 575px) {
   h1 {
     font-size: 37px;
@@ -191,5 +201,15 @@ nav {
 
   .certification-title {
     font-size: 29px;
+  }
+  .blog-content {
+    font-size: 19px;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .blog-container {
+    margin: 1px;
+    padding: 1px;
   }
 }
